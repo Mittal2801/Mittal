@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    display: inline;
+    background-color: rgb(117, 207, 223);
+    padding: 10px;
+}
+li:hover{
+    background-color: rgb(90, 170, 230);
+    padding: 10px;
+    opacity: 0.5;
+    border: solid;
+    
+    
+
+}
+.active{
+    background-color: lightpink;
+    color: lightslategray;
+}

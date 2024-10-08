@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+<!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <title>Yummy - Food Online Order Now</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://benchmarkwebsoft.com/kashish/Yummy/Images/healthy-food-icon.webp">
+
+
+
+    <style>
+        .logo{
+            font-family: "Amatic SC", sans-serif;
+            font-size: 45px;
+            color: black;
+            font-weight: bold;
+        }
+        .logo2{
+            font-family: "Amatic SC", sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #6d6a6a;
+        }
+        .icon{
+            background-color: #EFD6D6;
+             border-radius:50%; 
+             width:55px; 
+             text-align:center;
+              margin:auto;
+              padding: 10px;
+        }
+             .info{
+                text-align: center;
+                margin: 50px;
+        }
+       
+        .imagelist{
+            border: 5px solid red;
+            
+        }
+        a{
+            text-decoration: none;
+            color:#595959;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <!-- <header>
+        <div class="container-fluid">
+            <div class="row p-4 logo">
+                <div class="col-md-1 " >
+                    YUMMY
+                </div>
+                <div class="col-md-9 p-4 logo2">
+                   <a href="#home">HOME&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                   <a href="#about"> ABOUT&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#menu">MENU&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#events">EVENTS&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#chefs">CHEFS&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#gallery">GALLERY&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                      </ul>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-danger" style="border-radius: 50px;">Book a Table</button>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <header>
+        <div class="d-flex justify-content-around p-3">
+                <div class="logo">
+                    YUMMY
+                </div>
+                <div class="pt-4">
+                    <a href="#home">HOME&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#about"> ABOUT&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#menu">MENU&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#events">EVENTS&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#chefs">CHEFS&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#gallery">GALLERY&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                      </ul>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <div class="pt-3">
+                    <button class="btn btn-danger" style="border-radius: 50px;">Book a Table</button>
+                </div>
+        </div>
+
+    </header>
+
+    <div class="container-fluid" style="background-color: #F4F4F4;">
+        <div class="row" id="home">
+            <div class="col-md-6 p-5" data-aos="fade-up" data-aos-duration="3000">
+                <h1 class="p-5 logo">ENJOY YOUR HEALTHY <br>DELICIOUS FOOD</h1>
+                <div class="p-5"> Sed autem laudantium dolores. Voluptatem itaque ea<br>
+                    consequatur eveniet. Eum quas beatae cumque eum<br>
+                    quaerat.</div>
+                    <div class="p-5">
+                        <button class="btn btn-danger"style="border-radius:50px;">Book a Table</button>&nbsp;&nbsp;
+                        <span><i class="bi bi-play"></i><a href="https://benchmarkwebsoft.com/kashish/Yummy/" style="text-decoration: none;color: black;">Watch Video</a></span>
+                    </div>
+            </div>
+            <div class="col-md-6 p-5" data-aos="fade-left"data-aos-duration="3000">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/food.jpg">
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row p-5" id="about">
+           <center> <div class="col"data-aos="fade-up"
+            data-aos-duration="3000">
+                ABOUT US
+                <div class="logo">LEARN MORE ABOUT US</div>
+            </div></center>
+        </div>
+        <div class="row m-5">
+            <div class="col-md-8"data-aos="zoom-out-up"data-aos-duration="3000">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/about.jpg"width="100%">
+            </div>
+            <div class="col"data-aos="zoom-out-up"data-aos-duration="3000">
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div>
+                    <i class="bi bi-check2-all text-danger"></i>&nbsp;Ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </div>
+                <div>
+                    <i class="bi bi-check2-all text-danger"></i>&nbsp;Duis aute irure dolor in reprehenderit in voluptate
+                    velit.
+                </div>
+                <div> 
+                    <i class="bi bi-check2-all text-danger"></i>&nbsp; Ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                </div>
+                <div>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                </div>
+                <div>
+                    <a href="https://youtu.be/LXb3EKWsINQ"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"style="background-color:#F4F4F4;">
+        <div class="row p-5">
+            <div class="col-md-4 bg-danger text-light p-4 me-2"data-aos="zoom-out-up"data-aos-duration="1000">
+                <h2>Why Choose Yummy?</h2><br>
+
+                Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit, sed do<br>
+                eiusmod tempor incididunt ut labore et<br>
+                dolore magna aliqua. Duis aute irure<br>
+                dolor in reprehenderit Asperiores<br>
+                dolores sed et. Tenetur quia eos.<br>
+                Autem tempore quibusdam vel<br>
+                necessitatibus optio ad corporis.
+                <div class="m-4">
+               <center> <button class="btn rounded-pill border xyz" style="background-color:#e26060 ;">Learn More</button></center>
+                </div>
+
+            </div>
+            <div class="col bg-light p-4 m-2"data-aos="zoom-out-up"data-aos-duration="1000">
+                <div class="icon" >
+                    <i class="bi bi-clipboard-data"></i>
+                </div>
+                <div class="info">
+                   <h6> Corporis voluptates <br>
+                    officia eiusmod<br></h6>
+
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                </div>
+            </div>
+            <div class="col bg-light p-4 m-2"data-aos="zoom-out-up"data-aos-duration="1000">
+                <div class="icon" >
+                    <i class="bi bi-gem"></i>
+                </div>
+                <div class="info">
+                    <h6>Ullamco laboris ladore pan</h6>
+
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                </div>
+            </div>
+            <div class="col bg-light p-4 m-2"data-aos="zoom-out-up"data-aos-duration="1000">
+                <div class="icon" >
+                    <i class="bi bi-inboxes"></i>
+                </div>
+                <div class="info">
+                   <h6>Labore consequatur incidid dolore</h6>
+
+                    Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-4">
+        <div class="row"id="menu">
+            <div class="col p-4"data-aos="fade-up"
+            data-aos-duration="3000">
+                <center><div>OUR MENU</div>
+                <div class="logo">CHECK OUR YUMMY MENU</div></center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"data-aos="fade-up"
+            data-aos-duration="3000">   
+                <center>
+                <div>
+                   <a href="#menu">Starters &nbsp;&nbsp;</a><a href="#menu">Breakfast&nbsp;&nbsp;</a><a href="#menu">Lunch &nbsp;&nbsp;</a><a href="#menu">Dinner</a>
+                </div>
+                </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-4"data-aos="fade-up"
+            data-aos-duration="3000">
+               <center> <div>MENU</div>
+                <div class="text-danger logo"><h2>Starters</h2></div></center>
+            </div>
+        </div>
+        <div class="row m-5">
+            <div class="col text-center">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/menu-item-1.jpg"width="80%">
+                <div><h2>Magnam Tiste</h2></div>
+
+                   <div> Lorem, deren, trataro, filede, nerada</div>
+                    
+                   <div>$5.95</div>
+            </div>
+            <div class="col text-center">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/menu-item-2.jpg"width="80%">
+                <div><h2>Aut Luia</h2></div>
+
+                <div>Lorem, deren, trataro, filede, nerada</div>
+
+                <div>$14.95</div>
+            </div>
+            <div class="col text-center">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/menu-item-3.jpg"width="80%">
+                <div><h2>Est Eligendi</h2></div>
+
+                <div>Lorem, deren, trataro, filede, nerada</div>
+
+                <div>$8.95</div>
+            </div>
+        </div>
+        <div class="row m-5">
+            <div class="col text-center">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/menu-item-4.jpg"width="80%">
+               <div><h2>Eos Luibusdam</h2></div>
+
+                <div>Lorem, deren, trataro, filede, nerada</div>
+                
+                <div>$12.95</div>
+            </div>
+            <div class="col text-center">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/menu-item-5.jpg"width="80%">
+               <div><h2>Aut Luia</h2></div>
+
+                <div>Lorem, deren, trataro, filede, nerada</div>
+                
+                <div>$12.95</div>
+            </div>
+            <div class="col text-center">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/menu-item-3.jpg"width="80%">
+                <div><h2>Est Eligendi</h2></div>
+
+                <div>Lorem, deren, trataro, filede, nerada</div>
+
+                <div>$9.95</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid"style="background-color: #F4F4F4;">
+        <div class="row py-5">
+            <div class="col"data-aos="fade-up"
+            data-aos-duration="3000">
+              <center><div>TESTIMONIALS</div>
+             <div class="logo">WHAT ARE THEY SAYING ABOUT US</div></center>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 mx-auto">
+
+                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row p-5">
+                                            <div class="col-md-8">
+                                                <i class="bi bi-quote">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                  </svg>
+                                                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.<br> Accusantium quam, ultricies eget id, aliquam<br>
+                                                    eget nibh et. Maecen aliquam, risus at semper.
+                                                
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                      </svg>
+                        
+                                                    </i>
+
+                                                    <div class="my-3"><h4>Saul Goodman</h4></div>
+                                                    <div>Ceo & Founder</div>
+                                                    <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/testimonials-1.jpg" width="100%" style="border-radius:50%;border:4px solid #fff">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row p-5">
+                                            <div class="col-md-8" >
+                                                <div><i class="bi bi-quote">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                  </svg>
+                                                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa. 
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                      </svg>
+                        
+                                                    </i>
+                                                </div>
+                                                <div class="my-3"><h4>Sara Wilsson</h4></div>
+                                                <div>Designer</div>
+                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/testimonials-2.jpg" width="100%"style="border-radius:50%;border:4px solid #fff">
+                                            </div>
+                                        </div>                                   
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row p-5">
+                                            <div class="col-md-8" >
+                                                <div><i class="bi bi-quote">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                  </svg>
+                                                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                                
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                      </svg>
+                        
+                                                    </i>
+                                                </div>
+                                                <div class="my-3"><h4>Jena Karlis</h4></div>
+                                                <div>Store Owner</div>
+                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/testimonials-3.jpg"width="100%"style="border-radius:50%;border:4px solid #fff">
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row p-5">
+                                            <div class="col-md-8" >
+                                                <div><i class="bi bi-quote">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                  </svg>
+                                                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                                                    <svg xmlns="http://www.w3.org/2000/svg" style="color: rgb(229, 81, 81); " width="29" height="25" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                        <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"></path>
+                                                      </svg>
+                        
+                                                    </i>
+                                                </div>
+                                                <div class="my-3"><h4>John Larson</h4></div>
+                                                <div>Entrepreneur</div>
+                                                <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/testimonials-4.jpg" width="100%"style="border-radius:50%;border:4px solid #fff">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row m-5"id="events">
+            <div class="col-md-12" data-aos="zoom-out-up"data-aos-duration="3000">
+                <center><div>EVENTS</div>
+                <div class="logo">SHARE YOUR MOMENTS IN OUR RESTAURANT</div></center>
+            </div>
+        </div>
+        <div class="row my-5"data-aos="zoom-out-up"data-aos-duration="2000">
+            <div class="col-md-4">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/events-3.jpg"width="100%">
+            </div>
+            <div class="col-md-4">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/events-2.jpg"width="100%">
+            </div>
+            <div class="col-md-4">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/events-1.jpg"width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"style="background-color:#F4F4F4;">
+        <div class="row" id="chefs">
+            <div class="col m-5">
+                <div class="row p-5">
+                    <div class="col"data-aos="zoom-out-up"data-aos-duration="3000">
+                        <center><div>CHEFS</div>
+                        <div class="logo">OUR PROFFESIONAL CHEFS</div>
+                        </center>
+                    </div>
+                </div>
+           
+                <div class="row mx-2"data-aos="zoom-out-up"data-aos-duration="2000">
+                    <div class="col text-center bg-light m-2 p-2">
+                        <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/chefs-1.jpg"width="70%">
+                        <div><h4>Walter White</h4></div>
+                         <div>Master Chef</div>
+                            
+                        <div> Velit aut quia fugit et et. Dolorum ea<br> voluptate vel tempore tenetur ipsa quae <br>aut. Ipsum exercitationem iure minima <br>enim corporis et voluptate.</div>
+                    </div>
+                    <div class="col text-center bg-light m-2 p-2">
+                        <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/chefs-2.jpg"width="70%">
+                        <div><h4>Sarah Jhonson</h4></div>
+                        <div>Patissier</div>
+                        <div>
+                            Quo esse repellendus quia id. Est eum et <br>accusantium pariatur fugit nihil minima <br>suscipit corporis. Voluptate sed quas<br> reiciendis animi neque sapiente.
+                        </div>
+                    </div>
+                    <div class="col text-center bg-light m-2 p-2">
+                        <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/chefs-3.jpg"width="70%">
+                        <div><h4>Willom Andrson</h4></div>
+                        <div>Cook</div>
+                        <div>
+                            Vero omnis enim consequatur. Voluptas<br> consectetur unde qui molestiae deserunt.<br> Voluptates enim aut architecto porro<br> aspernatur molestiae modi.
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light">
+    <div class="container">
+        <div class="row p-5">
+            <div class="col"data-aos="zoom-out-up"data-aos-duration="3000">
+                <center><div>BOOK A TABLE</div>
+                <div class="logo">BOOK YOUR STAY WITH US</div></center>
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-md-5 px-0"data-aos="fade-right"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/reservation.jpg"width="100%" >
+            </div>
+            <div class="col p-5"style="background-color: #f4f4f4;"data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <input type="text"class="form-control"placeholder="Your Name">
+                </div>
+                <div class="col-md-4">
+                    <input type="email"class="form-control"placeholder="Your Email">
+                </div>
+                <div class="col-md-4">
+                    <input type="tel"class="form-control"placeholder="Your Phone">
+                </div>
+            </form>
+            <form class="row g-3 my-2">
+                <div class="col-md-4">
+                    <input type="date"class="form-control"placeholder="Date">
+                </div>
+                <div class="col-md-4">
+                    <input type="time"class="form-control"placeholder="Time">
+                </div>
+                <div class="col-md-4">
+                    <input type="text"class="form-control"placeholder="# Of Pople">
+                </div>
+            </form>
+            <form class="row g-3 my-2">
+                <div class="col">
+                    <textarea class="form-control"placeholder="Message" rows="5"></textarea>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-danger"style="border-radius:50px;">Book a Table</button>&nbsp;&nbsp;
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div class="container-fluid"style="background-color:#f4f4f4;">
+    <div class="row p-5"id="gallery">
+        <div class="col"data-aos="zoom-out-up"data-aos-duration="3000">
+            <center><div>GALLERY</div>
+            <div class="logo">CHECK OUR GALLERY</div></center>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-3.jpg" class="imagelist"width="100%">
+            </div>
+            <div class="col">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-8.jpg" class="imagelist"width="100%">
+            </div>
+            <div class="col">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-1.jpg" class="imagelist"width="100%">
+            </div>
+            <div class="col">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-2.jpg" class="imagelist"width="100%">
+            </div>
+            <div class="col">
+                <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-7.jpg" class="imagelist"width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- <section class="center slider">
+        <div class="imagelist">
+          <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-8.jpg">
+        </div>
+        <div class="imagelist">
+          <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-1.jpg">
+        </div>
+        <div class="imagelist">
+          <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-2.jpg">
+        </div>
+        <div class="imagelist">
+          <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-3.jpg">
+        </div>
+        <div class="imagelist">
+          <img src="https://benchmarkwebsoft.com/kashish/Yummy/Images/gallery-7.jpg">
+        </div>
+        
+      </section> -->
+</div>
+<div class="container-fluid bg-light">
+    <div class="row">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col"data-aos="zoom-out-up"data-aos-duration="3000">
+                   <center><div>CONTACT</div>
+                <div class="logo">NEED HELP? CONTACT US</div>
+                </center>
+
+                </div>
+            </div>
+            </div>
+            <div class="container">
+            <div class="row mx-5"id="contact">
+                <div class="col"data-aos="zoom-out-right"data-aos-duration="1000">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48395.46326645403!2d-73.99586!3d40.702242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a46a369a18d%3A0xa109779d5185c305!2sBrooklyn%20Bridge%20Park!5e0!3m2!1sen!2sus!4v1718641627295!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <div class="row m-5">
+                    <div class="col me-5"style="background-color: #f4f4f4;">
+                        <i class="bi bi-map"></i>
+                        &nbsp;&nbsp;<div><h4>Our Address</h4></div>
+
+                            <div>A108 Adam Street, New York, NY 535022</div>
+                    </div>
+                    <div class="col me-4"style="background-color: #f4f4f4;">
+                        <i class="bi bi-envelope"></i>
+                        &nbsp;&nbsp;<div><h4>Email Us</h4></div>
+
+                            <div>contact@example.com</div>
+                    </div>
+                </div>
+                <div class="row m-5">
+                    <div class="col me-5"style="background-color: #f4f4f4;">
+                       <div><i class="bi bi-telephone"></i><span><h4>Call Us</h4></span></div>
+
+                            <div>+1 5589 55488 55</div>
+                    </div>
+                    <div class="col me-4"style="background-color: #f4f4f4;">
+                        <i class="bi bi-share"></i>
+                        &nbsp;&nbsp;<div><h4>Opening Hours</h4></div>
+
+                            <div>Mon-Sat: 11AM - 23PM; Sunday: Closed
+
+                            </div>
+                    </div>
+                </div>
+                <div class="container m-5">
+                <div class="row p-5  bg-light shadow">
+                   <div class="col-md-6">
+                        <input type="text" placeholder="Your Name" class="form-control">
+                   </div>
+                   <div class="col-md-6">
+                        <input type="text" placeholder="Your Name" class="form-control">
+                    </div>
+                    <div class="row my-4">
+                        <div class="col">
+                            <input type="text"placeholder="Subject"class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea class="form-control"placeholder="Message"rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid p-0">
+        <div class="row bg-dark p-2">
+            <div class="col">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col text-light">
+                            <i class="bi bi-geo"></i>
+                            <h5>Address</h5><br>
+                            A108 Adam Street<br> 
+                            New York, NY 535022 - US
+                        </div>
+                        <div class="col text-light">
+                            <i class="bi bi-telephone"></i>
+                            <h5>Reservations</h5><br>
+                            Phone: +1 5589 55488 55 Email:
+                            <br> info@example.com
+                        </div>
+                        <div class="col text-light">
+                            <i class="bi bi-clock"></i>
+                            <h5>Opening Hours</h5><br>
+                            Mon-Sat: 11AM - 23PM Sunday: Closed
+                        </div>
+                        <div class="col text-light">
+                            <h5>Follow Us</h5>
+                            <div><i class="bi bi-twitter"></i>&nbsp;&nbsp;<i class="bi bi-facebook"></i>&nbsp;&nbsp;<i class="bi bi-instagram"></i>&nbsp;&nbsp;<i class="bi bi-linkedin"></i>&nbsp;&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <hr style="color: rgb(237, 243, 243);" class="mx-5">
+
+                <div class="row">
+                    <div class="col text-light">
+                       <center>© Copyright Yummy.All Rights Reserved<br>
+                        Designed by BootstrapMade</center> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <script>
+    AOS.init();
+  </script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  
+  </body>
+</html>

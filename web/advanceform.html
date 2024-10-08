@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .wrapper{
+            width: 650px;
+            height: 850px;
+            background-color: white;
+            margin: auto;
+        }
+        .heading{
+            padding-top: 10px;
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .box{
+            margin: auto;
+            margin-top: 10px;
+            height: 800px;
+            border: dotted;
+            width: 95%; 
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+        .form{
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            margin: 5px;
+            
+        }
+        label{
+            font-weight: bold;
+            padding: 10px;
+        }
+        input{
+            padding: 2px;
+            margin: 2PX;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="xyz.php" method="get">
+    <div class="wrapper">
+        <div class="heading">
+            Student Registration Form Using Table in HTML
+        </div>
+        <div class="box">
+            <div class="form">
+                <table>
+                    <tr>
+                    <td width="200">
+                        First Name
+                    </td>
+                <td>
+                   <span> <input type="text" name="fname"placeholder="Mittal"></span><span>&nbsp;&nbsp;(Max 50 Character Allowed)</span>
+                </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    Last Name
+                </td>
+                 <td>
+                    <span> <input type="text" name="lname"placeholder="Prajapati"></span><span>&nbsp;&nbsp;(Max 50 Character Allowed)</span>
+                 </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    Email
+                </td>
+                 <td>
+                    <span> <input type="email" name="email"placeholder="mitu2801@gmail.com">
+                 </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    Mobile Number
+                </td>
+                 <td>
+                    <span> <input type="tel" name="tel"placeholder="9909608588">
+                 </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    Gender
+                </td>
+                 <td>
+                    <span> <input type="radio" name="gender">Male
+                        <span> <input type="radio" name="gender">Female
+                 </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    Date Of Birth
+                </td>
+                 <td>
+                    <span> 
+                        <select name="Day">
+                            <option value="001">Select Day</option>
+                            <option value="002">21</option>
+                            <option value="003">22</option>
+                            <option value="004">23</option>
+                            <option value="005">24</option>
+                            <option value="006">25</option>
+                            <option value="007">26</option>
+                            <option value="008">27</option>
+                            <option value="009">28</option>
+                            <option value="010">29</option>
+                            <option value="011">30</option>
+                            <option value="012">31</option>
+                        </select>
+                        <span> 
+                            <select name="Month">
+                                <option value="001">Select Month</option>
+                                <option value="002">Jan</option>
+                                <option value="003">Feb</option>
+                                <option value="004">March</option>
+                                <option value="005">April</option>
+                                <option value="006">May</option>
+                                <option value="007">June</option>
+                                <option value="008">July</option>
+                                <option value="009">August</option>
+                                <option value="010">Sept</option>
+                                <option value="011">Oct</option>
+                                <option value="012">Nov</option>
+                                <option value="013">Dec</option>
+
+                            </select>
+                            <span> 
+                                <select name="Year">
+                                    <option value="001">Select Year</option>
+                                    <option value="002">2001</option>
+                                    <option value="003">2002</option>
+                                    <option value="004">2003</option>
+                                    <option value="005">2004</option>
+                                    <option value="006">2005</option>
+                                    <option value="007">2006</option>
+                                    <option value="008">2007</option>
+                                    <option value="009">2008</option>
+                                    <option value="010">2009</option>
+                                    <option value="011">2010</option>
+                                    <option value="012">2011</option>
+                                    <option value="013">2012    </option>
+    
+                                </select>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                Address
+                            </td>
+                             <td>
+                                <textarea rows="5" cols="40"></textarea>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                City
+                            </td>
+                             <td>
+                                <input type="text" placeholder="Ahmedabad"><span>&nbsp;&nbsp;(Max 50 Character Allowed)</span>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                Pin Code
+                            </td>
+                             <td>
+                                <input type="text" placeholder="382415"><span>&nbsp;&nbsp;(Max 6 Character Allowed)</span>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                State
+                            </td>
+                             <td>
+                                <input type="text" placeholder="Gujarat"><span>&nbsp;&nbsp;(Max 50 Character Allowed)</span>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                Country
+                            </td>
+                             <td>
+                                <input type="text" placeholder="India">
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                Hobbies
+                            </td>
+                             <td>
+                                <input type="checkbox">Drawing
+                                <input type="checkbox">Singing 
+                                <input type="checkbox">Dancing 
+                                <input type="checkbox">Sketching
+                                <input type="checkbox">Others  
+                                <input type="text" placeholder="Ex-Teaching"><span>&nbsp;&nbsp;(Max 50 Character Allowed)</span>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                Qualification
+                            </td>
+                             <td>
+                                <input type="checkbox">High School(10th)<br>
+                                <input type="checkbox">Higher School(12th)<br>
+                                <input type="checkbox">Graduation(Bachelors)<br>
+                                <input type="checkbox">Post Graduation(Master)<br>
+                                <input type="checkbox">Phd
+                             </td>
+                        </tr>
+                        <tr>
+                            <td width="200">
+                                Courses Applied For
+                            </td>
+                             <td>
+                                <input type="radio"name="Courses">BCA(Bachelor of Computer Application)<br>
+                                <input type="radio"name="Courses">B.Com(Bachelor of Commerce)<br>
+                                <input type="radio"name="Courses">B.Sc(Bachelor of Science)<br>
+                                <input type="radio"name="Courses">BA(Bachelor of Arts)<br>
+                                <input type="radio"name="Courses">MCA(Master of Computer Application)<br>
+                                <input type="radio"name="Courses">M.com(Master of Commerce)<br>
+                                <input type="radio"name="Courses">M.Sc(Master of Science)<br>
+                                <input type="radio"name="Courses">MA(Master of Arts)<br>
+
+                             </td>
+                        </tr>
+                    </table>
+                    <div style="margin-top: 50px;">
+                        <center><input type="submit"value="Submit" style="width: 10%; border-radius: 2px;background-color: #ccc;">
+                        <input type="Reset" style="width: 10%; border-radius: 2%;background-color: #ccc;"></center>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

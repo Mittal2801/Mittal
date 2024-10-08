@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="result.js"></script>
+    <style>
+        .main{
+            width: 500px;
+            border: 2px solid rgb(89, 77, 77);
+            margin: auto;
+            padding: 50px;
+            background-color: rgb(139, 151, 161);
+        }
+        input{
+            padding: 10px;
+            width: 80%;
+            border: 1px solid gray;
+            margin: 5px 0px;
+        }
+        #total{
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(56, 55, 77);
+        }
+        #result{
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(56, 55, 77);
+
+        }
+        button{
+            margin-top:25px;
+            background-color:rgb(46, 41, 50);
+            color:white;
+            padding:10px;
+            width:75px;
+            margin-bottom:20px;
+        }
+        .total{
+            margin-top:25px
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <center><h1>Result</h1></center>
+        <div>Enter Python Marks:<input type="text" id="txt1"></div>
+        <div>Enter Java Marks:<input type="text" id="txt2"></div>
+        <div>Enter Php Marks:<input type="text" id="txt3"></div>
+        <div>Enter Dbms Marks:<input type="text" id="txt4"></div>
+        <div>Enter Asp.net Marks:<input type="text" id="txt5"></div>
+        <button onclick="hello()">Result</button>
+        <div class="total">Total: <div id="total"></div></div>
+        <div class="total">Grade: <div id="result"></div></div>
+    </div>
+</body>
+</html>
