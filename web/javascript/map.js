@@ -15,4 +15,4 @@ console.log(x1);
 let no = p.map((m) => {
     return m +5;
 })
-console.log(no)
+console.log(no);
