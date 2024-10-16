@@ -6,19 +6,19 @@ num.forEach((v)=> {
 
 num.forEach((val) => {
     console.log("multiplication:",val*val)
-})
+});
 
 for(let p of num){
     console.log(p)
-}
+};
 
 num.forEach((val)=>{
-    console.log("division:",val/val)
-})
+    console.log("division:",val/8)
+});
 
 num.forEach((no) => {
-    console.log("subtraction:",no-no)
-})
+    console.log("subtraction:",no-3)
+});
 
 console.log(num.sort())
 console.log(num.reverse())
