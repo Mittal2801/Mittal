@@ -4,6 +4,7 @@ num.forEach((v)=> {
     console.log("addition:",v+5)
 });
 
+
 num.forEach((val) => {
     console.log("multiplication:",val*val)
 });
