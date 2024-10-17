@@ -9,6 +9,7 @@ function hello(){
     alert("Addition of a & b="+ c)
 }
 
+
 if(a>b)
 {
     console.log("a is greater than b")
