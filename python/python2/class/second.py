@@ -6,5 +6,6 @@ class GFG:
     def show(self):
         print(self.name + " " + self.age)
         
+        
 obj = GFG("Mittal","19")
 print(obj.show())

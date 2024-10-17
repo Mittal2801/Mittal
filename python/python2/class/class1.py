@@ -15,6 +15,7 @@ class item:
         print("your surname is " +self.abc)
         print("your full name is " +self.xyz+ ""+self.abc)
         
+        
 a = item('vidhi','nagar')
 b = item('mittal','prajapati')
 print(a.xyz)

@@ -14,6 +14,7 @@ car1.color = "red"
 car1.kind = "CNG"
 car1.value = 600000.00
 
+
 car2 = Vehicle()
 car2.name = "Toyota"
 car2.color = "blue"

@@ -11,6 +11,7 @@ class Tcit:
         print(self.id*5)
         
         
+        
 first_obj = Tcit(11,"talent")
 print(first_obj.x*5)
 first_obj.hello()

@@ -12,6 +12,7 @@ class Employee:
     def displayEmployee(self):
         print("Name : ",self.name, ", Salary: ", self.salary)
         
+        
 emp1 = Employee("Mahadev",21500)
 emp2 = Employee("Shiv",55000)
 emp3 = Employee("Shiv",55000)
