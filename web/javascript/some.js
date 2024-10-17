@@ -8,6 +8,7 @@ function myfunction(value,index,array){
     return value > 18;
 }
 
+
 const no = [75,83,56,42,55];
 let over50 = no.some(newData);
 
