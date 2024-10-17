@@ -7,6 +7,7 @@ wtotal=0
 dtotal=0
 opBal=balance
 
+
 while bank==1:
     print("your opening balance is ",balance)
     choice=int(input("press 1 for withdraw \n press 2 for deposite \n press 3 for check current balance"))

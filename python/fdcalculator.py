@@ -10,7 +10,6 @@
 #     amount += CI
 #     i += 1
     
-
 amount=int(input("enter amount:"))
 rate=float(input("enter rate:"))
 year=int(input("enter year:"))

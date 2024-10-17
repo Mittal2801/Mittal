@@ -1,6 +1,7 @@
 cardBal=1000
 play=1
 
+
 while play == 1:
     print("your card balance is ",cardBal)
     choice=int(input("Rs.500 for car racing press 1 \n Rs.750 for cycling press 2 \n Rs.150 for jumping press 3"))

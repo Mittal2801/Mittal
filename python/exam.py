@@ -2,6 +2,7 @@ num=int(input("enter number="))
 ans=0
 new=num
 
+
 while num>0:
     r=num%10
     print(r)

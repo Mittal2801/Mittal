@@ -5,6 +5,7 @@ c=a+b
 
 print("c=",c)
 
+
 d=int(input("enter for multiply:"))
 mul=c*d
 print("ans of multiply=",mul)

@@ -15,7 +15,6 @@ print("modulo of a & b",a%b)
 
 print(type(a/b))
 
-
 # c=(f-32)*5/9
 
 # f=101
