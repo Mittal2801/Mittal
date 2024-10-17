@@ -2,6 +2,7 @@ insta={"vidhi","mansi","aditya","dhrumil","lalit"}
 facebook={"dhruvit","megha","vidhi","aditya","dhrumil"}
 snapchat={"vidhi","mansi","megha","lalit","aditya","pankti"}
 
+
 # all=insta.intersection(facebook,snapchat)
 # print("All app user:",all)
 

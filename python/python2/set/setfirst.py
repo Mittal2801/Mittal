@@ -9,6 +9,7 @@ if "apple" in s1:
     
 for i in s2:
     print(i)
+   
     
 s1.add("pineapple")
 print(s1)
