@@ -17,4 +17,3 @@ class Student(Person):
 x = Student("Talent","Computer",2024)
 x.welcome()
 x.printname()
-    
