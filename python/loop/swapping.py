@@ -5,6 +5,7 @@ c=a
 a=b
 b=c
 
+
 print("after swapping")
 print("a=",a)
 print("b=",b)

@@ -1,5 +1,6 @@
 row = int(input("enter no of row "))
 col = int(input("enter no of column "))
+      
                                 
 count = 1
 for i in range(row):

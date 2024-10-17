@@ -1,6 +1,7 @@
 count=0
 ans=0
 
+
 for i in range(1,11):
     user=int(input("enter product value:"))
     

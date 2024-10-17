@@ -7,4 +7,5 @@ while total<10000:
     print("your amount is ",amt,"remaining amount is ",10000-total)
     count+=1
     
+    
 print("thank you for shopping",count,"items")

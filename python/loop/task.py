@@ -2,6 +2,7 @@ no=75645236
 ans=0
 count=0
 
+
 while no>0:
         r=no%10
         

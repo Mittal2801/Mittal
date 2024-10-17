@@ -7,6 +7,7 @@ while num>0:
     ans=ans*10+r
     num=num//10
     
+    
 print(ans)
 
 if new==ans:

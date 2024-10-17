@@ -7,6 +7,7 @@ while i<=no/2:
         prime=1
         break
     i=i+1
+       
             
 if prime==0:
         print("prime number")

@@ -6,6 +6,7 @@ for i in range(2,no):
         prime=0
         break
  
+ 
 if prime==1:   
     print("prime number")      
 else:

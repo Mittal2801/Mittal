@@ -6,6 +6,5 @@ while no>0:
     ans=ans*10+r
     no=no//10
     
-
     
 print(ans)

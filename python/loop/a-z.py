@@ -7,6 +7,7 @@ col = int(input("enter no of column "))
 #     print("\n")
 
 
+
 count = 97
 for i in range(row):
     for j in range(col):

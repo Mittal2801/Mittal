@@ -2,6 +2,7 @@ no=int(input("enter no="))
 ans=0
 new=no
 
+
 while no>0:
     r=no%10
     print(r)

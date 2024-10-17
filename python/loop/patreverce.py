@@ -3,6 +3,7 @@
 #         print("*",end=" ")
 #     print(" ")
     
+    
 for i in range(0,5):
     for k in range(5-i):
         print("*",end=" ")
