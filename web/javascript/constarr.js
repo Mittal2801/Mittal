@@ -5,6 +5,7 @@ for(let i =0;i<arr.length;i++)
     console.log("index " + i + "  = "+ arr[i])
 }
 
+
 const courses = ["CCC","PYTHON","WEB DEVELOPMENT","WEB DESIGN","C/C++"]
 
 console.log("***** for in loop *****")
