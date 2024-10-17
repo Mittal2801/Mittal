@@ -6,6 +6,7 @@ const contact = {
     income : 50000
 }
 
+
 console.log(contact);
  
 console.log("----------Objecct detail is below----------")
