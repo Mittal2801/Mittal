@@ -1,5 +1,6 @@
 import random
 
+
 starter=['paneer tikka','spring roll','cheese roll','paneer chilli','veg crispy']
 main=['paneer handi','pasta','pizza','pani puri','sandwich']
 desert=['ice cream','gulab jamun','pepsi','cupcake','pestry']

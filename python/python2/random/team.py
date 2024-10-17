@@ -1,5 +1,6 @@
 import random
 
+
 team=['kohli','gill','dhoni','rohit','hardik','bumrah','k l rahul','sachin','akshar','rishabh']
 
 team_a=random.sample((team),5)

@@ -1,5 +1,6 @@
 import random
 
+
 name=['vidhi','lalit','mansi','aditya','megha']
 verb=['is','am','are','have','has']
 other=['made','clever','dumb','dobo','pgl']

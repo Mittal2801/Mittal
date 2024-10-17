@@ -2,8 +2,6 @@ import random
 
 # print("Press 1 for stone \nPress 2 for Paper \nPress 3 for scissior")
 
-
-
 play=1
 while play==1:
     user=input("Enter stone or paper or scissior:-")

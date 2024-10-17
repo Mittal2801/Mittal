@@ -1,5 +1,6 @@
 import random
 
+
 #a string
 name=random.choice("Mittal Prajapati")
 print(name)

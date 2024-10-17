@@ -1,5 +1,6 @@
 import random
 
+
 min=int(input("Enter lower bound:"))
 max=int(input("Enter upper bound:"))
 

@@ -1,6 +1,7 @@
 import random
 #give value from 0.0 to 1.0
 
+
 num=int(random.random()*10)
 print(num)
 

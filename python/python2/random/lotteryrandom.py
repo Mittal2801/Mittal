@@ -9,6 +9,7 @@ print("User choice=",user)
 com=random.choice(list)
 print("Computer choice=",com)
 
+
 # user=int(input("Enter any number:-"))
 # print("User choice=",user)
 
