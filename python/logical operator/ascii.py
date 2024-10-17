@@ -1,5 +1,6 @@
 num=int(input("Enter any number:"))
 
+
 if num>65 and num<90:
     print(chr(num))
     print("Upper case")

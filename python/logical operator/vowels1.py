@@ -1,5 +1,6 @@
 vowels=input("enter any vowels :")
 
+
 if vowels=='a' or vowels=='A':
     print("Vowels")
     
