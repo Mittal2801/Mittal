@@ -9,6 +9,7 @@ function hello()
     //document.getElementById('txt6').value = total;
     document.getElementById('total').innerHTML = total;
 
+
     avg = total / 5
     if(avg > 60)
     {
