@@ -3,7 +3,6 @@ const over18 = numbers.filter(checkData);
 
 console.log(over18);
 
-
 function checkData(value,index,array){
     return value > 18;
 }
