@@ -5,3 +5,5 @@
 num=int(input("Enter a number:"))
 assert num>0,"Only possitive number asserted."
 print("You entered",num)
+
+
