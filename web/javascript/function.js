@@ -5,7 +5,6 @@
 //      alert("Addition of a & b=",c)
 //  }
 
-
 function hello()
 {
     let a = parseInt(document.getElementById('txt1').value);
