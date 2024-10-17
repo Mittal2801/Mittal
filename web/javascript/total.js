@@ -10,6 +10,7 @@ const data = {
     dbms : 59,
     java : 62
 }
+
 total=0
 for(const i in data)
 {
