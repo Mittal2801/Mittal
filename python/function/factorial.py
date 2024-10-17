@@ -10,3 +10,4 @@ def fact(x):
     
 num=int(input("enter any number="))
 fact(num)
+

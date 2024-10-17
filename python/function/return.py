@@ -16,3 +16,5 @@ z=int(input("enter value for multiplication:"))
 
 mul=mul(total,z)
 print("multiplication=",mul)
+
+

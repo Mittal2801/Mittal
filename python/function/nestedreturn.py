@@ -53,4 +53,3 @@ y=int(input("enter second"))
 
 total=add(x,y)
 print(total)
-

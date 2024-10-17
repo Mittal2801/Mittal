@@ -37,3 +37,5 @@ print("total=",ans1)
 x=ans1/5
 ans2=result(x)
 print("average=",ans2)
+
+
