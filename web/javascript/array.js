@@ -6,6 +6,7 @@ array.push('computer academy');
 console.log("new array ",array)
 console.log(array)
 
+
 let x = array.pop();
 console.log(x);
 console.log(array);
