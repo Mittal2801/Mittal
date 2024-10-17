@@ -6,6 +6,7 @@ const contact = {
     income : 50000
 }
 
+
 for(const i in contact)
 {
     console.log(i);
