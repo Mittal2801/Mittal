@@ -9,6 +9,8 @@ html=int(input("enter html marks :"))
 dbms=int(input("enter dbms marks :"))
 
 
+
+
 total=java+python+php+html+dbms
 print("Total=",total)
 

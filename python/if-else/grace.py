@@ -1,6 +1,7 @@
 marks=int(input("enter your marks :"))
 print("Marks=",marks)
 
+
 if marks>35:
     print("Pass")
     

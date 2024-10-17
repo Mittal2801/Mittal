@@ -19,4 +19,5 @@ else:
         withdraw=bal-wamt
         print("current balance=",withdraw) 
     else :
-        print("Insufficient balance")                                                
+        print("Insufficient balance")    
+                                                    

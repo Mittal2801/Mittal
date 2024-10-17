@@ -19,6 +19,7 @@
 
 a=int(input("enter value of a"))
 
+
 if a>0:
     print("value is positive")
     

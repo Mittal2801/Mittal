@@ -8,6 +8,7 @@ if a>b:
     else:
         print("c is greater number")
     
+    
 else:
     if b>c:
         print("b is greater number")

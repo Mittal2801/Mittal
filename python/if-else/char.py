@@ -17,3 +17,4 @@ elif char=='u':
     
 else:
     print("Consonant")
+    
