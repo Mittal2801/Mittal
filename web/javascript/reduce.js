@@ -2,6 +2,7 @@ const p1 = [5,4,1,5,12,16,6]
 
 console.log(p1);
 
+
 let x1 = p1.reduce((res,rep) => {
     return res + rep;
 })
