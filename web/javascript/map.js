@@ -2,6 +2,7 @@ const p =[5,4,1,5,12,16,6]
 
 console.log(p)
 
+
 let newArr = p.map((val) => {
     return val * val;
 })
