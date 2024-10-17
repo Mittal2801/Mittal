@@ -22,6 +22,7 @@ all_student={
 }
 # print(all_student)
 
+
 all_total=0
 male_total=0
 female_total=0

@@ -27,6 +27,7 @@ student={
         },
     }
 
+
 total=0
 for i in student:
     print(i)

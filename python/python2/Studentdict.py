@@ -31,6 +31,7 @@ student={
     },
 }
 
+
 for i in student:
     print(i)
     for x,y in student[i].items():

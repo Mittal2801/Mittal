@@ -12,6 +12,7 @@ for i in fruits:
     
 print(len(fruits))
     
+    
 i=0
 while i<len(fruits):
       print(i,fruits[i])

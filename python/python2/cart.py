@@ -4,6 +4,7 @@ user=int(input("How many item you want to buy?:"))
 repeat=1
 count=0
 
+
 while repeat==1:
     for i in range(user):
         name=input("\t\t\t\tEnter item name:")

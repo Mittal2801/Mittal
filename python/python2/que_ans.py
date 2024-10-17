@@ -4,8 +4,8 @@ question=["1. Enter your answer for name:",
           "4. Enter your answer for birth date:",
           "5. Enter your answer for roll no:",]
 
-
 ans=['Mittal',19,'ahmedabad','28 jan',3107]
+
 
 count=0
 name=input("1. Enter your answer for name=")

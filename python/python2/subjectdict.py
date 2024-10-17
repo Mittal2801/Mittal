@@ -8,7 +8,6 @@ dict={
     "Social Science":88
 }
 
-
 for i in dict:
     print(count,i,"----------",dict[i])
     count+=1

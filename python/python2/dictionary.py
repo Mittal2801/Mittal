@@ -5,7 +5,6 @@ dict={
     "address":"Ahmedabad"
 }
 
-
 print(dict)
 
 dict.update({"name":"vidhi"})

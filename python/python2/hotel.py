@@ -6,8 +6,7 @@ while num>=i:
         name=(input("enter name:"))
         list.append(name)
         i=i+1
-        
-        
+             
 print(list)
 
 menu=1

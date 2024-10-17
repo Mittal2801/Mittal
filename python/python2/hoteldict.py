@@ -1,6 +1,5 @@
-print("\t\t\t\t**********This is admin side**********")
-
-
+print("\t\t\t\t**********This is admin side**********")\
+    
 starter={}
 main={}
 desert={}

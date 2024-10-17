@@ -10,7 +10,6 @@ newlist=[1,7,5,3,6,1,2,5,9,1]
 mylist=newlist.count(1)
 print(mylist)
 
-
 list1=[1,2,3]
 list2=[4,5,6]
 

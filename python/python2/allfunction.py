@@ -6,7 +6,6 @@ def factorial(no):
     
     return ans
     
-    
 def fibonacii(f1):
     n1=0
     n2=1
