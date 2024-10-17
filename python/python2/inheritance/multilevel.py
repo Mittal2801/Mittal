@@ -12,5 +12,6 @@ class class_C(class_B):
         print("this is class C")
         super().print1()
         
+        
 obj = class_C()
 obj.print1()

@@ -11,6 +11,7 @@ class Student(Person):
         Person.__init__(self,fname,lname)#super().__init__(fname,lname)
         
         
+        
 name = input("enter your name:")
 age = int(input("enter your age:"))
 x = Student(name,age)

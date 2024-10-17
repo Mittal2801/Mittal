@@ -9,5 +9,6 @@ class Person:
 class Student(Person):
     pass
 
+
 x = Student("Talent","Computer")
 x.printname()

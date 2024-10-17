@@ -10,6 +10,7 @@ class Student(Person):
         super().__init__(fname,lname)
         self.statingsalary = salary
         
+        
 x = Student("Mittal","Prajapati","35000")
 x.printname()
 print("salary:",x.statingsalary)
