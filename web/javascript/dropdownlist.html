@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Change Background Color</title>
     <script src="dropdown.js"></script>
 </head>
 <body>
-    <h1>dropdownlist</h1>
-        <form>
-            <select onchange="handleOnChangeEvent(this.value)">
-                <option value="color">Select any color:</option>
-                <option value="red">Red</option>
-                <option value="yello">Yellow</option>
-                <option value="green">Green</option>
-                <option value="pink">Pink</option>
-                <option value="blue">Blue</option>
-            </select>
-        </form>
+    <label for="colorSelect">Choose a color:</label>
+    <select id="colorSelect" onchange="changeBackgroundColor()">
+        <option value="white">White</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+    </select>
+
+   
 </body>
 </html>
