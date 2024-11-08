@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fdcal.js"></script>
+    <style>
+        body{
+            background-color: grey;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            width: 500px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .wrapper{
+            width: 40%;
+            margin: auto;
+            border: 1px #ccc solid;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        button{
+            padding: 10px;
+            margin-top:10px;
+            margin-left: 200px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FD Calculator</h1>
+    <div class="wrapper">
+        <div>
+            <label for="myTextBox"><h4>Total investment:</h4></label>
+            <div><input type="text" id="myTextBox1" name="myTextBox"></div>
+        </div>
+        <div>
+            <label for="myTextBox"><h4>Rate of interest:</h4></label>
+            <div><input type="text" id="myTextBox2" name="myTextBox"></div>
+        </div>
+        <div>
+            <label for="myTextBox"><h4>Time Period:</h4></label>
+            <div><input type="text" id="myTextBox3" name="myTextBox"></div>
+        </div>
+        <button onclick="cal()">CALCULATOR</button>
+        <div>Invested amount:  <div id="amount"></div></div>
+        <div>Simple Interest: <div id="total"></div></div>
+        <div>CI: <div id="interest"></div></div>
+    </div>
+
+</body>
+</html>
