@@ -16,3 +16,13 @@ class student:
     def getmarks(self):
         return self.marks
     
+import student
+s = student()
+s.setid(100)
+s.setname("Vidhi Nagar")
+s.address("City College,satellite,Ahmedabad")
+s.setmarks(79)
+print(s.getid())
+print(s.getname())
+print(s.getaddress())
+print(s.marks())
