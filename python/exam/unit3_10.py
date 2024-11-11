@@ -5,7 +5,7 @@ class square:
         print(self.x * self.x)
 class rectangle(square):
     def __init__(self,x,y):
-        super().__init__(x)
+        super().__init__(x) 
         self.y = y
     def area(self):
         super().area()
