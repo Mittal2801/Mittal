@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="voting.js"></script>
+</head>
+<body>
+    <label for="ageSelect">Choose a age:</label>
+    <div>
+        <label for="myTextBox"><h4>Enter name:</h4></label>
+        <div><input type="text" id="myTextBox1" name="myTextBox"></div>
+    </div>
+    <div>
+        <label for="myTextBox"><h4>Enter Password:</h4></label>
+        <div><input type="text" id="myTextBox2" name="myTextBox"></div>
+    </div>
+    <div>
+        <label for="myTextBox"><h4>Enter age:</h4></label>
+        <div><input type="text" id="myTextBox3" name="myTextBox"></div>
+    </div>
+    <select id="ageSelect" onchange="vote()">
+        <option value="0-10">0-10 year</option>
+        <option value="11-18">11-18 year</option>
+        <option value="19-30">21-30 year</option>
+        <option value="31-40">31-40 year</option>
+        <option value="41-50">41-50 year</option>
+    </select>
+    <div class="err"></div>
+    <div id="msg"></div>
+
+</body>
+</html>
