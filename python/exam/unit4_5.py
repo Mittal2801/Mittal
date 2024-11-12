@@ -1,8 +1,15 @@
 import datetime
-year = int(input("year="))
-month = int(input("month="))
-day = int(input("day="))
 
+ #birthday
+byear = int(input("byear="))
+bmonth = int(input("bmonth="))
+bday = int(input("bday="))
+
+x = datetime.datetime(byear, bmonth, bday)
+print(x)
 birthday = datetime.datetime.now()
-difference = now - birthday
-print(difference.days)
+print(birthday)
+
+y = birthday - x
+
+print(y)
