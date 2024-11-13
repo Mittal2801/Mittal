@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+        
+        .login-container {
+            width: 350px;
+            border: 1px solid #dbdbdb;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .login-container img {
+            margin-bottom: 20px;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            background-color: #fafafa;
+        }
+        
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .login-button:disabled {
+            background-color: #b2dffc;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            color: #8e8e8e;
+            margin: 20px 0;
+        }
+
+        .divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background-color: #dbdbdb;
+            margin: 0 10px;
+        }
+
+        .signup-text {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .signup-text a {
+            color: #0095f6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" width="100">
+    <form>
+        <input type="text" class="input-field" placeholder="Phone number, username, or email" required>
+        <input type="password" class="input-field" placeholder="Password" required>
+        <button type="submit" class="login-button">Log In</button>
+    </form>
+    <div class="divider">OR</div>
+    <p style="color: #385185; font-weight: bold;">Log in with Facebook</p>
+    <p style="color: #00376b; font-size: 12px;">Forgot password?</p>
+</div>
+
+<div class="signup-text">
+    Don't have an account? <a href="#">Sign up</a>
+</div>
+
+</body>
+</html>
