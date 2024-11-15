@@ -6,12 +6,31 @@
     <title>Document</title>
     <script src="voting.js"></script>
     <style>
+        body{
+            background-color: rgb(96, 96, 135);
+        }
+        .wrapper{
+            width: 40%;
+            margin: auto;
+            border: 1px solid #ccc;
+            background-color: rgb(168, 168, 199);
+            padding-left: 20px;
+            margin-top: 50px;
+            padding-bottom: 20px;
+            border-radius: 5px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
         #err{
             color: red;
         }
     </style>
 </head>
 <body>
+<div class="wrapper">
     <div>
         <label for="myTextBox"><h4>Enter name:</h4></label>
         <div><input type="text" id="myTextBox1" name="myTextBox"></div>
@@ -21,8 +40,13 @@
         <div><input type="password" id="myTextBox2" name="myTextBox"></div>
     </div>
     <div>
+        <label for="myTextBox"><h4>Enter Confirm Password:</h4></label>
+        <div><input type="password" id="myTextBox3" name="myTextBox"></div>
+    </div>
+    <div id="password"></div>
+    <div>
         <label for="myTextBox"><h4>Enter age:</h4></label>
-        <div><input type="number"id="myTextBox3" name="myTextBox"></div>
+        <div><input type="number"id="myTextBox4" name="myTextBox"></div>
     </div>
     <button onclick="vote()">Submit</button>
 
@@ -37,6 +61,6 @@
         <option value="41-50">41-50 year</option>
     </select>
     <div id="msg"></div>
-
+</div>
 </body>
 </html>

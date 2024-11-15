@@ -19,5 +19,9 @@ function changeBackgroundColor() {
    
 }
 
+function onchangeColor()
+{
+var setdata = document.getElementById("drpcolor").value;
+document.body.style.backgroundColor = setdata;
 
-
+}
