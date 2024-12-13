@@ -18,5 +18,3 @@ console.log(s1.concat(s2));
 
 // str.replace(searchVal,newVal);
 console.log(str.replace("Computer",'TCIT'));
-
-

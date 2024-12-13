@@ -1,20 +1,19 @@
 import mysql.connector
+
 try:
     mydb = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "Mittalprajapati2801",
-        database = "sample_db"
+        password = "2801",
+        database = "sample"
     )
-    
     if mydb is None:
-        print("Not connected")
-        
+        print("Database is not connected")
     else:
-        print("connected")
+        print("Database is connected")
         
     cursor = mydb.cursor()
-    cursor.execute("create table employee (id varchar(10)primary key, name varchar(20), sal numeric(10))")
+    cursor.execute("create table employee (id varchar(10)primary key,name varchar(10),sal int(15))")
     print("Employee table created")
     
 except KeyError as e:
