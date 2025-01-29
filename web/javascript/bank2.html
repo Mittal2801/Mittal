@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Banking</title>
+</head>
+<body>
+  <h1>Banking Program</h1>
+
+  <label>Enter Current Balance:</label>
+  <input type="number" id="currentBalance"><br><br>
+
+  <label>What do you want to do?</label><br>
+  <input type="radio" name="operation" value="withdraw"> Withdraw<br>
+  <input type="radio" name="operation" value="deposit"> Deposit<br>
+  <input type="radio" name="operation" value="check"> Check Balance<br><br>
+
+  <div id="amountSection" style="display:none;">
+    <label>Enter Amount:</label>
+    <input type="number" id="amount"><br><br>
+  </div>
+
+  <button onclick="doBanking()">Submit</button>
+
+  <p id="result"></p>
+
+  <script>
+    const options = document.getElementsByName("operation");
+    options.forEach(option => {
+      option.addEventListener("change", () => {
+        if (option.value === "check") {
+          document.getElementById("amountSection").style.display = "none";
+        } else {
+          document.getElementById("amountSection").style.display = "block";
+        }
+      });
+    });
+
+    function doBanking() {
+      // Get balance and selected operation
+      const balance = parseFloat(document.getElementById("currentBalance").value);
+      const operation = document.querySelector('input[name="operation"]:checked');
+      const amount = parseFloat(document.getElementById("amount").value);
+
+      // If no operation is selected
+      if (!operation) {
+        document.getElementById("result").innerText = "Please select an option!";
+        return;
+      }
+
+      // If balance is invalid
+      if (isNaN(balance) || balance < 0) {
+        document.getElementById("result").innerText = "Enter a valid balance!";
+        return;
+      }
+
+      // Handle different operations
+      if (operation.value === "withdraw") {
+        if (isNaN(amount) || amount <= 0) {
+          document.getElementById("result").innerText = "Enter a valid amount to withdraw!";
+        } else if (amount > balance) {
+          document.getElementById("result").innerText = "Not enough balance!";
+        } else {
+          document.getElementById("result").innerText = `Withdrawal successful! New Balance: ₹${balance - amount}`;
+        }
+      } else if (operation.value === "deposit") {
+        if (isNaN(amount) || amount <= 0) {
+          document.getElementById("result").innerText = "Enter a valid amount to deposit!";
+        } else {
+          document.getElementById("result").innerText = `Deposit successful! New Balance: ₹${balance + amount}`;
+        }
+      } else if (operation.value === "check") {
+        document.getElementById("result").innerText = `Your current balance is: ₹${balance}`;
+      }
+    }
+  </script>
+</body>
+</html>

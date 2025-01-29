@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button Toggle</title>
+    <script src="tamp.js"></script>
+    <style>
+        .formula {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tamprechar</h1>
+    <label>
+        <input type="radio" name="tamp" value="fc" onclick="tamp('fc')" >
+        F to C
+    </label>
+    <label>
+        <input type="radio" name="tamp" value="cf" onclick="tamp('cf')">
+        C to F
+    </label>
+
+    <div id ="fc" class="formula">
+        <label for="entervalue">Enter Fahrenheit:</label>
+        <input type="text" id="txt1">
+        <button onclick="tamp()">Cal</button>
+        <div><label>Ans:</label>
+        <input type="text" id="txt2"></div>
+    </div> 
+
+    <div id="cf" class="formula">
+        <label for="entervalue">Enter Celsius:</label>
+        <input type="text" id="txt3">
+        <button onclick="tamp()">Cal</button>
+        <div><label>Ans:</label>
+        <input type="text" id="txt4"></div>
+    </div>
+
+    
+
+    
+</body>
+</html>

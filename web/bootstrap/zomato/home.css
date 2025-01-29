@@ -1,0 +1,94 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.firstimg{
+    position: relative;
+}
+
+.box{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+.boximg{
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+.contentone{
+    position: absolute;
+    top: 1105px;
+    left: 140px;
+    color: rgb(255, 255, 255);
+}
+.secondone{
+    position: absolute;
+    top: 1128px;
+    left: 140px;
+    color: rgb(255, 255, 255);
+}
+.contenttwo{
+    position: absolute;
+    top: 1105px;
+    left: 430px;
+    color: rgb(255, 255, 255);
+}
+.secondsecond{
+    position: absolute;
+    top: 1128px;
+    left: 430px;
+    color: rgb(255, 255, 255);
+}
+.contentthree{
+    position: absolute;
+    top: 1105px;
+    left: 720px;
+    color: rgb(255, 255, 255);
+}
+.secondthree{
+    position: absolute;
+    top: 1128px;
+    left: 720px;
+    color: rgb(255, 255, 255);
+}
+.contentfour{
+    position: absolute;
+    top: 1105px;
+    left: 1000px;
+    color: rgb(255, 255, 255);
+}
+.secondfour{
+    position: absolute;
+    top: 1128px;
+    left: 1000px;
+    color: rgb(255, 255, 255);
+}
+.border{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.bg{
+    background-color: #fffbf7;
+}
+.listbox{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(248, 248, 248);
+}
+.india{
+  width: 20px;  
+}
+.twobox{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.color{
+    color: #878787;
+}
+.firstcontent{
+    position: absolute;
+}

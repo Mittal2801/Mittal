@@ -131,6 +131,10 @@ margin-top: 30px;
 padding: 0;
 overflow: hidden;
 }
+.fruite-item {
+  height: 100%;
+  transition: 0.5s;
+}
 span{
 color: #81c408;
 }
@@ -225,7 +229,7 @@ color: #81c408;
   background-color: white;
   border: none;
   border-radius: 50%;
-  top: 495%;
+  top: 500%;
   left: 55%;
   padding: 40px;
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking</title>
+  <script src="bank.js"></script>
+</head>
+<body>
+  <h1>Banking Operations</h1>
+
+  <label for="currentBalance">Enter Current Balance:</label>
+  <input type="number" id="currentBalance">
+
+<div>
+    <label>Select Operation:</label><br>
+    <input type="radio"  name="transaction" value="withdraw" onclick="showhide('withdraw')">
+    <label for="withdraw">Withdraw</label><br>
+    <input type="radio"  name="transaction" value="deposit" onclick="showhide('deposite')">
+    <label for="deposit">Deposit</label><br>
+    <input type="radio"  name="transaction" value="inquiry" onclick="showhide('inquiry')">
+    <label for="balanceinquiry">Balance Inquiry</label>
+</div>
+
+  <div id="amountsection" >
+    
+    <label for="amount">Enter Amount:</label>
+    <input type="number" id="amount">
+  </div>
+
+  <button onclick="transaction()">Submit</button>
+
+  <p id="result"></p>
+
+  
+</body>
+</html>
