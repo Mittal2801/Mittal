@@ -1,0 +1,8 @@
+#colorDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 80px;
+    transition: background-color 0.5s;
+}
