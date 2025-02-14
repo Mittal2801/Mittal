@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="globalscope.js"></script>
+    <script src="localvariable.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>JavaScript Global Scope</h1>
-    <button onclick="displayGlobal()">Show Global Variable</button>
-    <p id="globalOutput"></p>
+    <h1>JavaScript Local Variable Example</h1>
+    <button onclick="showlocal()">Show Local Variable</button>
+    <p id="localOutput"></p>
     <p id="outsideOutput"></p>
     <script>
-        document.getElementById('outsideOutput').innerHTML = globalVar;
+        document.getElementById('outsideOutput').innerHTML = localVar;
     </script>
 </body>
 </html>
