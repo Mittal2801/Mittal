@@ -5,3 +5,13 @@ body{
 .yellow{
     color: #e3c01c;
 }
+.underline{
+    text-decoration: underline #ca1515;
+}
+.box{
+    background-color: #f4f4f4;
+    height: 330px;
+}
+.icon{
+    color: #ca1515;
+}
