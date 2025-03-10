@@ -15,3 +15,103 @@ body{
 .icon{
     color: #ca1515;
 }
+.ulbold{
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+}
+.inputborder{
+    border-radius: 50px ;
+}
+.imgone{
+    position: relative;
+}
+.contentone{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenttwo{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.contentthree{
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    font-weight: bold;
+}
+.contentfour{
+    position: absolute;
+    top: 8%;
+    left: 51%;
+}
+.contentfive{
+    position: absolute;
+    top: 12%;
+    left: 51%;
+}
+
+.contentsix{
+    position: absolute;
+    top: 18%;
+    left: 51%;
+    font-weight: bold;
+}
+.contentseven{
+    position: absolute;
+    top: 42%;
+    left: 51%;
+}
+.contenteight{
+    position: absolute;
+    top: 46%;
+    left: 51%;
+}
+.contentnine{
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    font-weight: bold;
+}
+.contentten{
+    position: absolute;
+    top: 8%;
+    left: 76%;
+}
+.contenteleven{
+    position: absolute;
+    top: 12%;
+    left: 76%;
+}
+.contenttwelve{
+    position: absolute;
+    top: 18%;
+    left: 76%;
+    font-weight: bold;
+}
+.contentthirteen{
+    position: absolute;
+    top: 42%;
+    left: 76%;
+}
+.contentforteen{
+    position: absolute;
+    top: 46%;
+    left: 76%;
+}
+.contentfifteen{
+    position: absolute;
+    top: 52%;
+    left: 76%;
+    font-weight: bold;
+}
+.contentsixteen{
+    position: absolute;
+    top: 00%;
+    left: 100%;
+}
