@@ -9,8 +9,8 @@ body{
     text-decoration: underline #ca1515;
 }
 .box{
-    background-color: #f4f4f4;
-    height: 330px;
+    background-color: #c7c7c7;
+    height: 390px;
 }
 .icon{
     color: #ca1515;
@@ -112,6 +112,38 @@ li{
 }
 .contentsixteen{
     position: absolute;
-    top: 00%;
-    left: 100%;
+    color: #ca1515;
+    top: 225%;
+    left: 40%;
+}
+.contentseventeen{
+    position: absolute;
+    top: 230%;
+    left: 35%;
+}
+.contenteighteen{
+    position: absolute;
+    top: 240%;
+    left: 44%;
+}
+.circle{
+    position: absolute;
+    top: 345%;
+    left: 62%;
+}
+.contentnineteen{
+    position: absolute;
+    top: 355%;
+    left: 67%;
+}
+.contenttwenty{
+    position: absolute;
+    top: 359%;
+    left: 62%;
+    color: #ca1515;
+}
+.contenttone{
+    position: absolute;
+    top: 367%;
+    left: 68%;
 }
