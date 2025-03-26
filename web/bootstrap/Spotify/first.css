@@ -8,5 +8,14 @@ body{
     border-radius: 5px;
 }
 .imgradius{
-    border-radius: 100%;
+    border-radius: 50%;
+}
+.white{
+    color: white;
+}
+.artist{
+    color: #8c8c8c;
+}
+.imgradius2{
+    border-radius: 10px;
 }
