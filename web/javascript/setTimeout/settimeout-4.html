@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function step1() {
+        setTimeout(() => {
+            console.log("Step 1");
+            callback();
+        }, 1000);
+       }
+        function step2(callback) {
+            setTimeout(() => {
+                console.log("Step 2");
+                callback();
+            }, 1000);
+        }
+        function step3() {
+            setTimeout(() => {
+                console.log("Step 3");
+            }, 1000);
+        }
+step1(() => {
+    step2(() => {
+        step3();
+    });
+});
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

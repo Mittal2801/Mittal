@@ -19,3 +19,17 @@ body{
 .imgradius2{
     border-radius: 10px;
 }
+ul {
+    color : white;
+    list-style-type: none;
+}
+li {
+    color: #8c8c8c;
+    line-height: 30px;
+}
+hr {
+    color: white;
+}
+.last {
+    color: #8c8c8c;
+}
