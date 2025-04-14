@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.underline {
+    text-decoration: underline;
+}
+.content2
+{
+   line-height: 30px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    line-height: 40px;
+}
+footer {
+    background-color: #e8e8ea;
+}
+.primary {
+    color: aqua;
+}
+.height {
+    line-height: 25px;
+
+}
+.weight {
+    font-size: large;
+}

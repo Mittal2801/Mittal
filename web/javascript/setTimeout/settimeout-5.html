@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const  quotes = [
+        "Bellive in yourself!",
+        "Keep pushing forward!",
+        "You are stronger than you think!",
+        "Never give up!",
+        "Success comes with hard work!"
+        ];
+
+        function displayQuotes(count = 5) {
+            let displayed = 0;
+
+            function showQuote() {
+                if (displayed < count) {
+                    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                    console.log(randomQuote)
+                    displayed++;
+                    setTimeout(showQuote, 3000);
+                }
+            }
+
+            showQuote();
+        }
+        displayQuotes();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
