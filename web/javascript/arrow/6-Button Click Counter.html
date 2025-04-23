@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let count = 0;
+        const handleClick = () => {
+            count++;
+            console.log(`clicked ${count} times`);
+        }
+        const minimizeClick = () => {
+            count--;
+            console.log(`clicked ${count} times`);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="handleClick()">+ click</button>
+    <button onclick="minimizeClick()">- click</button>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+          }
+          h1 {
+            color: #2c3e50;
+          }
+          .example {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 5px solid #3498db;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+          }
+          button {
+            margin-top: 10px;
+            padding: 6px 12px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: #2980b9;
+          }
+          .output {
+            margin-top: 10px;
+            font-family: monospace;
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+          }
+    </style>
+</head>
+<body>
+    <h1>🚀 Arrow Function Examples (Real World)</h1>
+
+    <div class="example">
+        <h3>1. Search Filter</h3>
+        <button onclick="searchFilter()">Run</button>
+        <div class="output" id="output1"></div>
+    </div>
+
+    <div class="example">
+        <h3>2. Toggle Like</h3>
+        <button onclick="toggleLike()">Toggle Like</button>
+        <div class="output" id="output2"></div>
+    </div>
+
+    <div class="example">
+        <h3>3. Cart Total</h3>
+        <button onclick="calcTotal()">Calculate</button>
+        <div class="output" id="output3"></div>
+    </div>
+
+    <div class="example">
+        <h3>4. Live Clock</h3>
+        <button onclick="startClock()">Start Clock</button>
+        <div class="output" id="output4"></div>
+    </div>
+
+    <div class="example">
+        <h3>5. Form Data to Object</h3>
+        <button onclick="formToObject()">Convert</button>
+        <div class="output" id="output5"></div>
+    </div>
+
+    <div class="example">
+        <h3>6. Get initials</h3>
+        <button onclick="getUserInitials()">Generate</button>
+        <div class="output" id="output6"></div>
+    </div>
+
+    <div class="example">
+        <h3>7. Click Counter</h3>
+        <button onclick="clickCount()">Click Me!</button>
+        <div class="output" id="output7"></div>
+    </div>
+
+    <script>
+        // 1. Search Filter
+        const searchFilter = () => {
+            const products = ["Phone", "Laptop", "Tablet", "Camera"];
+            const search = "ph";
+            const result = products.filter(p => p.toLowerCase().includes(search));
+            document.getElementById('output1').innerHTML = result.join(", ");
+        };
+
+        // 2. Toggle Like
+        let liked = false;
+        const toggleLike = () => {
+            liked = !liked;
+            document.getElementById("output2").innerText = liked ? "👍 Liked!" : "👎 Unliked!";
+        };
+        
+
+        // 3. Cart Total
+        const calcTotal = () => {
+            const cart = [120, 230, 50];
+            const total = cart.reduce((sum,price) => sum + price,0);
+            document.getElementById('output3').innerHTML = `Total : ₹${total}`;
+        }
+
+        // 4. Live Clock
+        let clockStarted = false;
+        const startClock = () => {
+            if (!clockStarted) {
+                setInterval(() => {
+                    const time = new Date().toLocaleTimeString();
+                    document.getElementById('output4').innerHTML = time;
+                },1000);
+                clockStarted = true;
+            } 
+        }
+
+        // 5. Form Data to Object
+        const formToObject = () => {
+            const formData = [
+                ["name", "Anjali"],
+                ["email", "anjali@example.com"]
+            ];
+            const user = Object.fromEntries(formData.map(([k, v]) => [k, v]));
+            document.getElementById('output5').innerHTML = JSON.stringify(user,null,2);
+        };
+       
+    
+        // 6. Get Initials
+        const getUserInitials = () => {
+            const fullName = "juli beauty academy";
+            const initials = fullName
+            .split(" ")
+            .map(word => word[0].toUpperCase())
+            .join("");
+            document.getElementById("output6").innerText = `Initials: ${initials}`;
+        };
+
+        // 7. Click Counter
+        let clickCounter = 0;
+        const clickCount = () => {
+        clickCounter++;
+        document.getElementById("output7").innerText = `Clicked ${clickCounter} times`;
+        };
+  
+    </script>
+</body>
+</html>
