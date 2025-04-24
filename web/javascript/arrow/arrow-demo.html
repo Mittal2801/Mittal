@@ -88,6 +88,12 @@
         <div class="output" id="output7"></div>
     </div>
 
+    <div class="example">
+        <h3>8. Count Like-Dislike</h3>
+        <button onclick="clickLikeCount()">👍</button>
+        <button onclick="clickDisLikeCount()">👎</button>
+        <div class="output" id="output8"></div>
+    </div>
     <script>
         // 1. Search Filter
         const searchFilter = () => {
@@ -152,6 +158,24 @@
         document.getElementById("output7").innerText = `Clicked ${clickCounter} times`;
         };
   
+
+        // 8. Like-DisLike
+
+        let likeCounter = 0;
+        let dislikeCounter = 0;
+
+        const clickLikeCount = () => {
+            likeCounter++;
+            document.getElementById('output8').innerHTML = `Like Clicked ${likeCounter} times and Dislike Clicked ${dislikeCounter} times`;
+        }
+        const clickDisLikeCount = () => {
+            dislikeCounter++;
+            document.getElementById('output8').innerHTML = `Like Clicked ${likeCounter} times and Dislike Clicked ${dislikeCounter} times`;
+
+        }
+       
+        
+
     </script>
 </body>
 </html>
