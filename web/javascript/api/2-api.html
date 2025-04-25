@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cocktail</title>
+</head>
+<body>
+    <h1>Random Cocktail</h1>
+    <button onclick="getRandomDrink()">Get Random Drink</button>
+    <div id="drink"></div>
+
+    <script>
+        function getRandomDrink() {
+            fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
+                .then(response => response.json())
+                .then(data => {
+                    const drink = data.drinks[0];
+                    document.getElementById("drink").innerHTML = `
+                        <div style="border:1px solid #ccc;width:300px;padding:10px;margin-top:20px;">
+                            <h2>${drink.strDrink}</h2>
+                            <img src="${drink.strDrinkThumb}" width="300" alt="${drink.strDrink}">
+                            <p><strong>Category:</strong> ${drink.strCategory}</p>
+                            <p><strong>Alcoholic:</strong> ${drink.strAlcoholic}</p>
+                            <p><strong>Glass:</strong> ${drink.strGlass}</p>
+                            <p><strong>Instructions:</strong> ${drink.strInstructions}</p>
+                            ${drink.strVideo ? `<a href="${drink.strVideo}" target="_blank">Watch Video</a>` : ''}
+                        </div>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Error fetching drink:', error);
+                    document.getElementById("drink").innerText = "Failed to load drink.";
+                });
+        }
+    </script>
+</body>
+</html>

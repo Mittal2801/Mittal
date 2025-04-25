@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Activity</title>
+</head>
+<body>
+    <h1>Random Activity</h1>
+    <button onclick="getRandomActivity()">Get Random Activity</button>
+    <div id="activity"></div>
+
+    <script>
+        function getRandomActivity() {
+            fetch('https://www.boredapi.com/api/activity')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(data); // Check the API response in the browser console
+                    const activity = data.activity;
+                    document.getElementById("activity").innerHTML = `
+                        <div style="border:1px solid #ccc;width:300px;padding:10px;margin-top:20px;">
+                            <h2>Activity:</h2>
+                            <p>${activity}</p>
+                        </div>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Error fetching activity:', error);
+                    document.getElementById("activity").innerText = "Failed to load activity. Please try again.";
+                });
+        }
+    </script>
+</body>
+</html>
