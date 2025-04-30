@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let category = "electronics";
+        let product = "mobile";
+
+        switch (category) {
+            case "electronics":
+                switch (product) {
+                    case "mobile":
+                        console.log("You have selected a mobile.");
+                        break;
+
+                    case "laptop":
+                        console.log("You have selected a laptop.");
+                        break;
+
+                    default:
+                        console.log("Unknown electronics product.");
+                }
+                break;
+            
+            case "fashion":
+                console.log("You are shopping in fashion category.");
+                break;
+
+            default:
+                console.log("Category not recognized.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Nested Switch-Case</h1>
+</body>
+</html>
