@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let user = { role: "admin" , name: "Alice" };
+
+        switch (user.role) {
+            case "admin":
+                console.log(`${user.name} has full access`);
+                break;
+                
+            case "editor":
+                console.log(`${user.name} can edit content`);
+                break;
+
+            case "viewer":
+                console.log(`${user.name} can view content`);
+                break;
+
+            default:
+                console.log("Role not recognized")
+        }
+    </script>
+</head>
+<body>
+    <h1>Switch Case with Object Key Matching</h1>
+</body>
+</html>
