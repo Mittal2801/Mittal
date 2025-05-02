@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num = 51;
+        let isPrime = false;
+
+        do {
+            isPrime = true;
+            for(let i = 2; i<num; i++){
+                if(num % i === 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+            if (isPrime) {
+                console.log(`First prime number greater than 50 is: ${num}`);
+                break;
+            }
+            num++;
+        } while(true);
+    </script>
+</head>
+<body>
+    <h1>Do-While Loop With Break - Find First Prime Number</h1>
+</body>
+</html>
