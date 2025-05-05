@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function processNumbers(numbers,callback) {
+            return numbers.map(callback);
+        }
+        
+        function square(numbers) {
+            return numbers * numbers;
+        }
+
+        const numbers = [2,3,4];
+        const squaredNumbers = processNumbers(numbers,square);
+
+        console.log(squaredNumbers)
+    </script>
+</head>
+<body>
+    <h1>Callback Function - Process an Array of Numbers</h1>
+</body>
+</html>

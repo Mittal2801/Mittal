@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Function with Rest Parameters: Sum multiple values
+        function sum(...numbers) {
+            return numbers.reduce((acc,num) => acc + num,0);
+        }
+
+        console.log(sum(1,2,3,4));
+        console.log(sum(5,5));
+    </script>
+</head>
+<body>
+    <h1>Function with Rest Parameters - Sum Multiple Values</h1>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function GreetDelayed(name,callback) {
+            setTimeout(() => {
+                console.log(`Hello, ${name}`);
+                callback();
+            },2000);
+        }
+        function afterGreeting() {
+            console.log("Greeting Completed.");
+        }
+        GreetDelayed('Alice',afterGreeting);
+    </script>
+</head>
+<body>
+    <h1>Function with Callback - Delayed Greeting</h1>
+</body>
+</html>

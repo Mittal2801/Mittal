@@ -33,3 +33,11 @@ hr {
 .last {
     color: #8c8c8c;
 }
+.box {
+    background-color: #524f4f;
+    color: white;
+    border-radius: 5px;
+}
+.btn {
+    border-radius: 50px;
+}
