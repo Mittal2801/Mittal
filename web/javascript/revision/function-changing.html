@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Car(make) {
+            this.make = make;
+            this.speed = 0;
+
+            this.accelerate = function() {
+                this.speed += 10;
+                return this;
+            };
+
+            this.break = function() {
+                this.speed -= 5;
+                return this;
+            }
+
+            this.getSpeed = function() {
+                return this.speed;
+            };
+        }
+
+        const myCar = new Car('Toyota');
+        const speed = myCar.accelerate().accelerate().break().getSpeed();
+
+        console.log(speed)
+    </script>
+</head>
+<body>
+    <h1>Function Changing : Manipulating an Object</h1>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class Animal {
+            speak() {
+                return "This animal makes a sound.";
+            }
+        }
+
+        class Cat extends Animal {
+            speak() {
+                return "The cat meows.";
+            }
+        }
+
+        class Dog extends Animal {
+            speak() {
+                return "The dog barks.";
+            }
+        }
+
+        const animal = [new Animal(), new Cat(), new Dog()];
+
+        animal.forEach(animal => {
+            console.log(animal.speak())
+        });
+    </script>
+</head>
+<body>
+    <h1>Polymorphism</h1>
+</body>
+</html>
