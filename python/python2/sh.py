@@ -12,7 +12,7 @@ print(list[::-2])
 print(list[8::-2])
 print(list[-2::-2])
 
-# newlist=[x for x in list if "sh" in x]
-# print("newlist=",newlist)
+newlist=[x for x in list if "sh" in x]
+print("newlist=",newlist)
 
 
