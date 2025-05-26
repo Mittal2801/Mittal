@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Geolocation API
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(position => {
+                const lat = position.coords.latitude;
+                const lon = position.coords.longitude;
+                console.log('Latitude:',lat,'Longitude:',lon);
+            });
+        } 
+        else {
+            console.log("Geolocation is not supported by this browser.");
+        }
+    </script>
+</head>
+<body>
+    <h1>Geolocation API</h1>
+</body>
+</html>

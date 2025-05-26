@@ -1,0 +1,21 @@
+<script>
+    const apiKey = 'YOUR_OPENCAGE_API_KEY';
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+            const lat = position.coords.latitude;
+            const lon = position.coords.longitude;
+
+            console.log('Latitude:', lat, 'Longitude:', lon);
+
+            fetch(`https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lon}&key=${apiKey}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Location Info:', data);
+                    alert(`You are in ${data.results[0].components.city || data.results[0].components.town}, ${data.results[0].components.country}`);
+                });
+        });
+    } else {
+        console.log("Geolocation is not supported by this browser.");
+    }
+</script>

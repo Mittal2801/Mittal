@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function foo() {
+            console.log("Inside foo");
+            bar();
+        }
+        function bar() {
+            console.log("Inside bar");
+        }
+        foo(); //Output: "Inside foo" followed by "Inside bar"
+        bar();
+    </script>
+</head>
+<body>
+    <h1>Call Stack</h1>
+</body>
+</html>
