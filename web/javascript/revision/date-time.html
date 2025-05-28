@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let today = new Date();   //let birthdate = new Date("2005-01-28");
+        console.log("Today:",today)
+
+        let date = today.getDate();
+        console.log("Date:",date)
+
+        let month = today.getMonth() + 1;   //month mate +1 karvanu
+        console.log("Month:",month)
+
+        let year = today.getFullYear();
+        console.log("Year:",year)
+
+        let day = today.getDay();          //0=sun,1=mon,2=tues,3=wed,4=thrs,5=fri,6=sat
+        console.log("Day:",day) 
+
+        // let time = today.getTime();
+        // console.log("Time:",time)
+
+        let hours = today.getHours();
+        console.log("Hours:",hours)
+
+        let minutes = today.getMinutes();
+        console.log("Minutes:",minutes)
+
+        let seconds = today.getSeconds();
+        console.log("Seconds:",seconds)
+
+        let milliseconds = today.getMilliseconds();
+        console.log("MilliSeconds:",milliseconds)
+
+        date = date < 10 ? "0" + date : date; //ternary operator jo date 1 hase to "01" karva mate
+        month = month < 10 ? "0" + month : month;
+
+        hours = hours < 10 ? "0" + hours : hours;
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        
+        console.log(`${day} - ${month} - ${year}`);
+        console.log(`${hours} - ${minutes} - ${seconds}`);
+
+    </script>
+</head>
+<body>
+    <h1>Date-Time Examples</h1>
+</body>
+</html>

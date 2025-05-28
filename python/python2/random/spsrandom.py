@@ -17,7 +17,7 @@ while play==1:
         
     elif com=='stone' and user=='paper':
         print("user is win")
-        
+          
     elif com=='stone' and user=='scissior':
         print("computer is win")
         

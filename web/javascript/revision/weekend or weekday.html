@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //function checkWeekend(dateStr) {
+            let date = new Date();
+            let day = date.getDay();
+            console.log("day:",day);
+
+            if (day == 0 || day == 6) {
+                console.log("weekend")
+
+            }
+            else {
+                console.log("weekday")
+            }
+        //}
+
+        
+        // console.log(checkWeekend("2025-05-24")); 
+        // console.log(checkWeekend("2025-05-22"));
+
+
+    </script>
+</head>
+<body>
+    <h1>Weekend or Weekday</h1>
+</body>
+</html>

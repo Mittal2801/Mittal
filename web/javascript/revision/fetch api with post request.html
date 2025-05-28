@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const data = {
+            username : 'vidhi',
+            email: 'vidhi1234@gmail.com'
+        };
+
+        fetch('https://jsonplaceholder.typicode.com/posts', {
+            method : 'POST',
+            headers : {
+                'Content-Type':'application/json'
+            },
+            body : JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(result => {
+            console.log('Data submittesd:',result);
+        })
+        .catch(error => console.error('Error: ',error));
+    </script>
+</head>
+<body>
+    <h1>Fetch API With Post Request</h1>
+</body>
+</html>

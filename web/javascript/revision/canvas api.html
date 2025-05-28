@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas Example</title>
+</head>
+<body>
+  <canvas id="myCanvas" width="500" height="500"></canvas>
+
+  <script>
+    const canvas = document.getElementById('myCanvas');
+    if (canvas) {
+      const context = canvas.getContext('2d');
+      // Your drawing code here
+      context.fillStyle = 'blue';
+      context.fillRect(10, 10, 100, 100);
+    } else {
+      console.error('Canvas element not found');
+    }
+  </script>
+</body>
+</html>

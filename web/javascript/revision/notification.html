@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Notification Example</title>
+</head>
+<body>
+  <h2>Click the button to show a notification</h2>
+  <button onclick="showNotification()">Show Notification</button>
+
+  <script>
+    function showNotification() {
+      // Check if the browser supports notifications
+      if (!("Notification" in window)) {
+        alert("This browser does not support desktop notifications.");
+        return;
+      }
+
+      // Request permission if needed
+      if (Notification.permission === "granted") {
+        createNotification();
+      } else if (Notification.permission !== "denied") {
+        Notification.requestPermission().then(permission => {
+          if (permission === "granted") {
+            createNotification();
+          } else {
+            alert("Notification permission was denied.");
+          }
+        });
+      } else {
+        alert("Notifications are blocked. Please enable them in your browser settings.");
+      }
+    }
+
+    function createNotification() {
+      new Notification("Hi there! 👋", {
+        body: "This is a simple notification using JavaScript.",
+        icon: "https://cdn-icons-png.flaticon.com/512/1827/1827349.png" // Optional icon
+      });
+    }
+  </script>
+</body>
+</html>
