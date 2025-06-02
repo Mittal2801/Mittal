@@ -10,6 +10,5 @@ function searchElementsExample() {
     document.write("Includes 'Fish': "+includesFish+"<br>")
     document.write("Found animal starting with 'C': "+foundAnimal+"<br>")
     document.write("Index of animal starting with 'D: "+indexOfFoundAnimal+"<br>")
-    
 }
 searchElementsExample()
